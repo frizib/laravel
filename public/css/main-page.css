@@ -1,0 +1,339 @@
+.main-frame-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.main-frame-main-frame {
+  width: 100%;
+  height: 1440px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.main-frame-back {
+  top: 0px;
+  left: 0px;
+  width: 2560px;
+  height: 1440px;
+  position: absolute;
+}
+.main-frame-body {
+  top: 192px;
+  left: 500px;
+  width: 1560px;
+  height: 1248px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.main-frame-releases {
+  top: 0px;
+  left: 0px;
+  width: 415px;
+  height: 1248px;
+  display: inline-block;
+  overflow: hidden;
+  position: absolute;
+  box-sizing: content-box;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.main-frame-text {
+  top: 50px;
+  left: 27px;
+  color: rgba(202, 202, 202, 1);
+  height: auto;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Imprima;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 25px;
+  padding: 15px;
+}
+
+.main-frame-content {
+  top: 0px;
+  left: 0px;
+  width: 320px;
+  height: 210px;
+  float: left;
+}
+
+.main-frame-newone {
+  margin-top: 121px;
+  margin-left: 48px;
+  width: 320px;
+  height: 210px;
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(202, 202, 194, 1);
+}
+.main-frame-new {
+  margin-left: 48px;
+  display: inline-block;
+  padding: 25px;
+}
+.main-frame-news {
+  top: 0px;
+  left: 415px;
+  width: 1145px;
+  height: 1060px;
+  overflow: visible;
+  overflow-y: scroll;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  margin-top: 45px;
+  margin-left: 45px;
+}
+
+.main-frame-blockthree {
+  top: 848px;
+  left: 48px;
+  width: 1050px;
+  height: 350px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.main-frame-block {
+  width: 1050px;
+  height: 350px;
+  padding: 15px;
+  background-color: rgb(30, 28, 28);
+}
+
+.main-frame-text02 {
+  color: rgba(202, 202, 202, 1);
+  width: 655px;
+  height: auto;
+  font-size: 26px;
+  font-style: Regular;
+  font-family: Imprima;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.main-frame-text03 {
+  top: 35px;
+  left: 355px;
+  color: rgba(202, 202, 202, 1);
+  width: 655px;
+  height: auto;
+  font-size: 32px;
+  font-style: Regular;
+  font-family: Imprima;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  padding-top: 15px;
+
+}
+
+.main-frame-blocktwo {
+  top: 449px;
+  left: 48px;
+  width: 1050px;
+  height: 350px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.main-frame-blockone {
+  top: 0px;
+  left: 0px;
+  width: 1050px;
+  height: 350px;
+}
+
+
+.main-frame-content2 {
+  width: 280px;
+  height: 280px;
+  margin: 23px;
+  float: left;
+}
+
+.main-frame-head {
+  top: 0px;
+  left: 500px;
+  width: 1560px;
+  height: 192px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.main-frame-head1 {
+  top: 0px;
+  left: 0px;
+  width: 1560px;
+  height: 195px;
+  position: absolute;
+}
+.main-frame-frame1 {
+  top: 0px;
+  left: 0px;
+  width: 430px;
+  height: 192px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.main-frame-logo1 {
+  top: 0px;
+  left: 0px;
+  width: 430px;
+  height: 192px;
+  position: absolute;
+}
+.main-frame-logreg {
+  top: 0px;
+  left: 1210px;
+  width: 350px;
+  height: 195px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.button-login {
+  top: 20px;
+  left: 25px;
+  width: 295px;
+  height: 55px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(42, 42, 42, 1);
+  border-radius: 7px;
+}
+.button-login-text {
+  color: rgba(202, 202, 202, 1);
+  width: 295px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.button-registration {
+  top: 112px;
+  left: 25px;
+  width: 295px;
+  height: 55px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(42, 42, 42, 1);
+  border-radius: 7px;
+}
+.button-registration-text {
+  color: rgba(202, 202, 202, 1);
+  width: 295px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.search-line {
+  top: 0px;
+  left: 430px;
+  width: 780px;
+  height: 195px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.search-line-text {
+  top: 112px;
+  left: 19px;
+  width: 540px;
+  height: 50px;
+  position: absolute;
+  border-radius: 7px;
+}
+.search-line-button {
+  top: 112px;
+  left: 610px;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(42, 42, 42, 1);
+  border-radius: 7px;
+}
+.search-line-button-text {
+  color: rgba(202, 202, 202, 1);
+  width: 150px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.text-news {
+  color: rgba(202, 202, 202, 1);
+  width: 780px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
